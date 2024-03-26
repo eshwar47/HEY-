@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.valentine-container {
+  text-align: center;
+}
+
+.valentine-heading {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.547);
+  margin-bottom: 20px;
+  font-family: "Times New Roman", serif;
+}
+
+.yes-button {
+  background-color: rgba(219, 214, 214, 0.448);
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Times New Roman", serif;
+}
+
+.no-button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Times New Roman", serif;
+  }

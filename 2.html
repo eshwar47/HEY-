@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF with Caption</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .gif-wrapper {
+            display: inline-block;
+            position: relative;
+            width: 400px;
+        }
+        .gif-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gif-wrapper">
+            <img class="gif-image" src="yay.gif" alt="GIF">
+            
+            <div class="text-wrapper">
+                <p>AWW YAY!</p>
+            </div>
+            <div class="text-wrapper">
+                <p>when? waiting.......</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
